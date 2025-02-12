@@ -1,0 +1,78 @@
+/* Estilo geral para resetar margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configura o corpo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#container {
+    width: 552px;
+    background: #2E2E2E;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content1 {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    align-items: center;
+}
+
+#profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilePic {
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+    background-color: #8415EB;
+}
+
+#infoContainer > h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+#infoContainer > h3 {
+    font-size: 16px;
+    color: #CBCBCB;
+    font-weight: 400;
+}
+
+#container > p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #CBCBCB;
+    text-align: center;
+}
+
+#githubUrl {
+    text-decoration: none;
+}
+#githubUrl:hover {
+    opacity: 0.7;
+}
+
