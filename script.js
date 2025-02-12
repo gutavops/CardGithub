@@ -2,7 +2,6 @@ async function getData() {
   const url = "https://api.github.com/users/gutavops";
   try {
     const response = await fetch(url);
-    console.log("response: ", response);
     if (!response.ok) {
       throw new Error(`Response status: ${response.status}`);
     }
